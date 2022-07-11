@@ -1,0 +1,160 @@
+.header {
+    height: 100px;
+    background: #0E0E0E;
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        width: 1110px;
+        height: 84px;
+        justify-content: space-between;
+    }
+
+    &__list {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        margin-right: 34px;
+    }
+
+    &__link22 {
+        margin-left: auto;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__hr {
+        width: 1110px;
+        height: 1px;
+        background: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.2;
+        margin: 0 auto;
+    }
+}
+
+.checkbox {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+
+    .header__nav {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        width: 689px;
+    }
+
+    .header__img {
+        margin-left: 42px;
+    }
+
+
+    .burger {
+        display: block;
+    }
+
+    .header__list {
+        text-align: center;
+        background-color: rgba(18, 18, 19, 0.726);
+        top: 98px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: none;
+    }
+
+    .header__link2 {
+        margin-left: auto;
+    }
+
+    .header__hr{
+        width: 689px;
+    }
+
+
+    .checkbox:checked~.header__list {
+        display: block;
+        position: absolute;
+        position: fixed;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .header__hr{
+       width: 100%;
+    }
+}
+
+@media screen and (max-width:640px) {
+
+    .header {
+        width: 100%;
+    }
+
+    .header__nav {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        width: 327px;
+    }
+
+    .header__img {
+        margin-left: 76px;
+    }
+
+
+    .burger {
+        display: block;
+    }
+
+    .header__list {
+        text-align: center;
+        background-color: rgba(18, 18, 19, 0.726);
+        top: 98px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: none;
+    }
+
+    .header__link2 {
+        margin-left: auto;
+    }
+
+    .header__hr{
+        width:100%;
+    }
+
+
+    .checkbox:checked~.header__list {
+        display: block;
+        position: absolute;
+        position: fixed;
+        z-index: 1;
+    }
+}

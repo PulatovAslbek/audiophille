@@ -1,0 +1,99 @@
+.section4 {
+    height: 788px;
+    background-color: #fff;
+
+    &__box {
+        width: 1110px;
+        height: 588px;
+        background-image: url("../../images/section4/bola.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    &__minibox{
+        width: 445px;
+        height: 295px;
+        padding-top: 147px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: 1.42857px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    &__b {
+        color: #D87D4A;
+    }
+
+    &__text {
+        width: 440px;
+        margin-top: 32px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #000000;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+}
+
+@media screen and (max-width:800px){
+    .section4{
+        height: 839px;
+    }
+
+    .section4__box{
+        width: 689px;
+        height: 633px;
+        background-image: url("../../images/section4/tablet.png");
+        border-radius: 8px;        
+    }
+
+    .section4__minibox{
+        width: 573px;
+        height: 270px;
+        padding-top: 526px;
+        margin: 0 auto;
+    }
+
+    .section4__title{
+        text-align: center;
+    }
+
+    .section4__text{
+        text-align: center;
+        width: 570px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .section4{
+        width: 100%;
+        height: 1018px;
+    }
+
+    .section4__box{
+        width: 327px;
+        height: 698px;
+        background-image: url("../../images/section4/mobile.png");
+    }
+
+    .section4__minibox{
+        width: 327px;
+        height: 435px;
+    }
+
+    .section4__title{
+        width: 327px;
+        text-align: center;
+    }
+
+    .section4__text{
+        width: 320px;
+        text-align: center;
+    }
+}

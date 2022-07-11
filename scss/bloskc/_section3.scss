@@ -1,0 +1,288 @@
+.section3 {
+    height: 1496px;
+    background-color: #fff;
+
+    &__box {
+        width: 1110px;
+    }
+
+    &__box2 {
+        width: 1110px;
+        height: 560px;
+        background-color: #D87D4A;
+        border-radius: 8px;
+        background-image: url("../../images/section3/1.png");
+        background-repeat: no-repeat;
+        background-position: bottom left 118px;
+    }
+
+    &__boxx {
+        width: 349px;
+        height: 303px;
+        margin-left: 666px;
+        padding-top: 133px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 58px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        margin-top: 24px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.75;
+    }
+
+    &__link {
+        position: relative;
+        top: 40px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        width: 160px;
+        height: 48px;
+        padding: 15px 30px;
+        background: #000000;
+    }
+
+    &__box3 {
+        margin-top: 48px;
+        height: 320px;
+        background-image: url("../../images/section3/Bitmap.png");
+        background-repeat: no-repeat;
+    }
+
+    &__boxx2 {
+        width: 204px;
+        height: 118px;
+        padding-top: 101px;
+        margin-left: 95px;
+    }
+
+    &__title2 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    &__link2 {
+        position: relative;
+        top: 40px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        color: #000000;
+        width: 160px;
+        height: 48px;
+        padding: 15px 30px;
+        text-align: center;
+        border: 1px solid #000000;
+    }
+
+    &__box4 {
+        margin-top: 48px;
+        height: 320px;
+        background-image: url("../../images/section3/Group12.png");
+        background-repeat: no-repeat;
+    }
+
+    &__boxx3 {
+        width: 540px;
+        height: 320px;
+        margin-left: 571px;
+        background: #F1F1F1;
+        border-radius: 8px;
+    }
+
+    &__title3 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left: 95px;
+        position: relative;
+        top: 101px;
+    }
+
+    &__link3 {
+        position: relative;
+        top: 142px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #000000;
+        width: 160px;
+        height: 48px;
+        padding: 15px 30px;
+        border: 1px solid #000000;
+        margin-left: 96px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .section3 {
+        height: 1520px;
+    }
+
+    .section3__box {
+        width: 689px;
+        height: 1424px;
+    }
+
+    .section3__box2 {
+        width: 689px;
+        height: 720px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #D87D4A;
+        border-radius: 8px;
+        background-image: url("../../images/section3/tablet.png");
+        background-repeat: no-repeat;
+        background-position: center top 52px;
+    }
+
+    .section3__boxx {
+        width: 349px;
+        height: 303px;
+        margin: 0 auto;
+        padding-top: 364px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section3__title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 58px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .section3__text {
+        text-align: center;
+    }
+
+    .section3__box3 {
+        background-image: url("../../images/section3/tablet2.png");
+    }
+
+    .section3__box4 {
+        background-image: url("../../images/section3/tablet3.png");
+    }
+
+    .section3__boxx3 {
+        width: 339px;
+        height: 320px;
+        margin-left: 352px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .section3 {
+        width: 100%;
+        height: 1612px;
+    }
+
+    .section3__box {
+        width: 327px;
+        height: 1392px;
+    }
+
+    .section3__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 1.28571px;
+    }
+
+    .section3__box2 {
+        width: 327px;
+        height: 720px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #D87D4A;
+        border-radius: 8px;
+        background-image: url("../../images/section3/tablet.png");
+        background-repeat: no-repeat;
+        background-position: center top 52px;
+    }
+
+    .section3__box3 {
+        height: 320px;
+        background-image: url("../../images/section3/mobile.png");
+        border-radius: 8px;
+    }
+
+    .section3__boxx2 {
+        margin-left: 24px;
+    }
+
+    .section3__title2 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 2px;
+    }
+
+    .section3__box4 {
+        background-image: url("../../images/section3/mobile2.png");
+    }
+
+    .section3__boxx3 {
+        width: 327px;
+        height: 200px;
+        margin-left: 0;
+        position: relative;
+        top: 224px;
+    }
+
+    .section3__title3 {
+        width: 245px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left: 25px;
+        position: relative;
+        top: 31px;
+    }
+
+    .section3__link3{
+        margin-left: 25px;
+        position: relative;
+        top: 62px;
+    }
+
+
+}

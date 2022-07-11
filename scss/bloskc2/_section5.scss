@@ -1,0 +1,56 @@
+.section5 {
+    height: 225px;
+    background: #0E0E0E;
+
+    &__box {
+        width: 1110px;
+        height: 220px;
+    }
+
+    &__title {
+        padding-top: 98px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: 1.42857px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .section5__box {
+        width: 689px;
+        height: 246px;
+    }
+
+    .section5__title {
+        padding-top: 105px;
+    }
+}
+
+@media screen and (max-width:640px) {
+
+.section5 {
+    height: 225px;
+    background: #0E0E0E;
+}
+
+
+    .section5__box {
+        width: 327px;
+        height: 110px;
+    }
+
+    .section5__title {
+        padding-top: 98px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}

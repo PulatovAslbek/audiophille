@@ -1,0 +1,126 @@
+.section {
+    height: 639px;
+    background: #0E0E0E;
+
+    &__box {
+        width: 1110px;
+        height: 639px;
+        background-image: url("../../images/section/Bitmap.png");
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+
+    &__minibox {
+        padding-top: 110px;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+
+    &__title2 {
+        width: 410px;
+        margin-top: 24px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 58px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        width: 349px;
+        margin-top: 24px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.75;
+    }
+
+    &__link {
+        position: relative;
+        top: 40px;
+        text-decoration: none;
+        width: 160px;
+        height: 48px;
+        padding: 15px 30px;
+        background: #D87D4A;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .section__box {
+        justify-content: center;
+        background-image: url("../../images/section/Bitmap2.png");
+        background-position: center top -100px;
+    }
+
+    .section__minibox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 379px;
+        height: 346px;
+        margin: 0 auto;
+    }
+
+    .section__title {
+        text-align: center;
+    }
+
+    .section__title2 {
+        text-align: center;
+    }
+
+    .section__text {
+        text-align: center;
+    }
+
+    .section__link {
+        text-align: center;
+        justify-content: center;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .section {
+        width: 100%;
+        height: 600px;
+        background-image: url("../../images/section/Bitmap3.png");
+        background-repeat: no-repeat;
+        background-position: center top -50px;
+    }
+
+    .section__box {
+        width: 100%;
+        height: 600px;
+        background-image: none;
+    }
+
+    .section__title2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 1.28571px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
